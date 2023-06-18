@@ -49,19 +49,19 @@ const userData = {
     {
       title: 'Natours',
       link: 'https://meharpreetsingh.github.io/natours/',
-      imgUrl: '/images/projects/natours.JPG',
+      imgUrl: '/images/projects/natours.jpg',
       description: 'Tours Company Landing Page || Javascript, HTML, SCSS',
     },
     {
       title: 'Nexter',
       link: 'https://meharpreetsingh.github.io/nexter/',
-      imgUrl: '/images/projects/nexter.JPG',
+      imgUrl: '/images/projects/nexter.jpg',
       description: 'Real Estate Landing Page || Javascript, HTML, SCSS',
     },
     {
       title: 'Trillo',
       link: 'https://meharpreetsingh.github.io/trillo/',
-      imgUrl: '/images/projects/trillo.JPG',
+      imgUrl: '/images/projects/trillo.jpg',
       description: 'Hotel Description Page || Javascript, HTML, SCSS',
     },
   ],
