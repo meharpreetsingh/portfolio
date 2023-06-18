@@ -1,22 +1,25 @@
 import React from 'react';
 import userData from '@constants/data';
 
+import { AiFillLinkedin, AiOutlineWhatsApp } from 'react-icons/ai';
+
 export default function Contact() {
   return (
-    <section>
+    <section className='px-3'>
       <div className='max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800 antialiased'>
         <h1 className=' text-5xl md:text-9xl font-bold py-20 text-center md:text-left'>Contact</h1>
       </div>
-      <div className='relative z-10 rounded-md shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4'>
-        <div className='grid grid-cols-1 md:grid-cols-2 gap-4'>
+      <div className='relative z-10 rounded-md border-[1px] border-white shadow-md bg-[#02044A] p-4 md:p-10 lg:p-20 max-w-6xl mx-auto mb-20 -mt-4'>
+        {/* <div className='grid grid-cols-1 md:grid-cols-2 gap-4 '> */}
+        <div className='grid grid-cols-1 md:grid-cols-1 gap-4 justify-center'>
           <div className='md:ml-4'>
             <header className=''>
               <h1 className='text-gray-50 font-semibold text-2xl'>Get in touch, let's talk.</h1>
-              <p className='font-light text-base text-gray-200 mt-2'>
+              {/* <p className='font-light text-base text-gray-200 mt-2'>
                 Fill in the details and I'll get back to you as soon as I can.
-              </p>
+              </p> */}
             </header>
-            <div className='icons-container inline-flex flex-col my-20'>
+            <div className='icons-container flex flex-col my-20'>
               <div className='flex flex-row items-center space-x-6 rounded-md border border-[#02044A] hover:border hover:border-blue-500 p-4'>
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
@@ -66,7 +69,7 @@ export default function Contact() {
                 href={userData.socialLinks.linkedin}
                 className='h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer'
               >
-                <svg
+                {/* <svg
                   width='24'
                   height='24'
                   className='text-gray-50'
@@ -78,29 +81,47 @@ export default function Contact() {
                     d='M9.19795 21.5H13.198V13.4901H16.8021L17.198 9.50977H13.198V7.5C13.198 6.94772 13.6457 6.5 14.198 6.5H17.198V2.5H14.198C11.4365 2.5 9.19795 4.73858 9.19795 7.5V9.50977H7.19795L6.80206 13.4901H9.19795V21.5Z'
                     fill='currentColor'
                   />
-                </svg>
+                </svg> */}
+                <AiFillLinkedin className='h-7 w-7' />
               </a>
-              <a
-                href={userData.socialLinks.twitter}
-                className='h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer'
-              >
-                <svg
-                  width='24'
-                  height='24'
-                  className='text-gray-50'
-                  viewBox='0 0 24 24'
-                  fill='none'
-                  xmlns='http://www.w3.org/2000/svg'
+              {userData.socialLinks.twitter ? (
+                <a
+                  target='_blank'
+                  href={userData.socialLinks.twitter}
+                  className='h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer'
                 >
-                  <path
-                    fillRule='evenodd'
-                    clipRule='evenodd'
-                    d='M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z'
-                    fill='currentColor'
-                  />
-                </svg>
-              </a>
+                  <svg
+                    width='24'
+                    height='24'
+                    className='text-gray-50'
+                    viewBox='0 0 24 24'
+                    fill='none'
+                    xmlns='http://www.w3.org/2000/svg'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      clipRule='evenodd'
+                      d='M8 3C9.10457 3 10 3.89543 10 5V8H16C17.1046 8 18 8.89543 18 10C18 11.1046 17.1046 12 16 12H10V14C10 15.6569 11.3431 17 13 17H16C17.1046 17 18 17.8954 18 19C18 20.1046 17.1046 21 16 21H13C9.13401 21 6 17.866 6 14V5C6 3.89543 6.89543 3 8 3Z'
+                      fill='currentColor'
+                    />
+                  </svg>
+                </a>
+              ) : (
+                ''
+              )}
+              {userData.socialLinks.whatsapp ? (
+                <a
+                  target='_blank'
+                  href={userData.socialLinks.whatsapp}
+                  className='h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer'
+                >
+                  <AiOutlineWhatsApp className='h-7 w-7' />
+                </a>
+              ) : (
+                ''
+              )}
               <a
+                target='_blank'
                 href={userData.socialLinks.instagram}
                 className='h-10 w-10 rounded-full hover:bg-blue-500 flex items-center justify-center cursor-pointer'
               >
