@@ -49,7 +49,7 @@ const userData = {
     {
       title: 'Natours',
       link: 'https://meharpreetsingh.github.io/natours/',
-      imgUrl: '/images/projects/natours.jpg',
+      imgUrl: '/images/projects/natours.JPG',
       description: 'Tours Company Landing Page || Javascript, HTML, SCSS',
     },
     {
