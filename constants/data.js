@@ -87,7 +87,7 @@ const userData = {
     {
       title: 'FullStack Developer & Designer',
       company: 'Mehar Graphix',
-      year: 'Feb 2019 - present',
+      year: 'Feb 2019 - Dec 2022',
       companyLink: 'https://www.instagram.com/mehar.graphix/',
       desc: '[ReactJS, NextJS, Tailwind, NodeJs, MySQL] [Adobe Creative Suite (Photoshop, Illustrator), Sketch, Figma] [SEO, SMM, WordPress, Facebook, Instagram]',
     },
