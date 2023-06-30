@@ -77,13 +77,20 @@ const userData = {
     currentProjectUrl: 'https://resume-builder-meharpreetsingh.vercel.app/',
   },
   experience: [
-    // {
-    //   title: 'FullStack Developer Engineer',
-    //   company: 'itmtb Technologies',
-    //   year: 'May 2023 - present',
-    //   companyLink: 'https://www.itmtb.com/',
-    //   desc: 'As full-stack developer is responsible for designing, developing, and maintaining web applications using MongoDB, Express.js, React.js, and Node.js technologies. Use of other modern technologies such as TailwindCSS, SASS, etc. Always ready to adapt new tech...',
-    // },
+    {
+      title: 'FullStack Developer Engineer',
+      company: 'itmtb Technologies',
+      year: 'May 2023 - present',
+      companyLink: 'https://www.itmtb.com/',
+      desc: 'As full-stack developer is responsible for designing, developing, and maintaining web applications using MongoDB, Express.js, React.js, and Node.js technologies. Use of other modern technologies such as TailwindCSS, SASS, etc. Always ready to adapt new tech...',
+    },
+    {
+      title: 'FullStack Developer & Designer',
+      company: 'Mehar Graphix',
+      year: 'Feb 2019 - present',
+      companyLink: 'https://www.instagram.com/mehar.graphix/',
+      desc: '[ReactJS, NextJS, Tailwind, NodeJs, MySQL] [Adobe Creative Suite (Photoshop, Illustrator), Sketch, Figma] [SEO, SMM, WordPress, Facebook, Instagram]',
+    },
     {
       title: 'Frontend Developer (Intern)',
       company: 'Brand Masterz',
