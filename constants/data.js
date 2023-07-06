@@ -8,19 +8,61 @@ const userData = {
   address: 'Bathinda, Punjab',
   projects: [
     {
-      title: 'Forkify - Search 1,000,000 recipes',
+      title: 'Porfolio',
+      link: 'https://portfolio-mehar.vercel.app/',
+      imgUrl: '/images/projects/portfolio.jpg',
+      description:
+        'Light Mode & Dark Mode Customizable Portfolio Website || ReactJs, NextJs, Tailwind',
+    },
+    {
+      title: 'Forkify',
       link: 'https://forkify-sepia.vercel.app/',
       imgUrl: '/images/projects/forkify.png',
+      description:
+        'Recipe Search & Ingredients quantity based on no. of Servings || ReactJS, Express, NodeJs, MongoDB',
+    },
+    {
+      title: 'Resume Builder',
+      link: 'https://resume-builder-olive.vercel.app/builder',
+      imgUrl: '/images/projects/resume-builder.jpg',
+      description: 'The Best Free Online Resume Builder || ReactJs, NextJs, MaterialUI, PDF',
     },
     {
       title: 'Bankist App',
       link: 'https://meharpreetsingh.github.io/bankist-app/',
       imgUrl: '/images/projects/bankist-app.png',
+      description:
+        'NETBANKING APP || Try with {user: ms, pass: 1111} {user: js, pass: 2222} || NextJs, ReactJs, Typescript, Tailwind',
+    },
+    {
+      title: 'Mapty',
+      link: 'https://meharpreetsingh.github.io/mapty/',
+      imgUrl: '/images/projects/mapty.jpg',
+      description: 'App to record your CYCLING & RUNNING || Javascript, HTML, CSS',
+    },
+    {
+      title: 'Bankist - Landing Page',
+      link: 'https://meharpreetsingh.github.io/bankist/',
+      imgUrl: '/images/projects/bankist.jpg',
+      description: 'SEO friendly landing page for Bankist || Javascript, HTML, CSS',
     },
     {
       title: 'Natours',
       link: 'https://meharpreetsingh.github.io/natours/',
       imgUrl: '/images/projects/natours.JPG',
+      description: 'Tours Company Landing Page || Javascript, HTML, SCSS',
+    },
+    {
+      title: 'Nexter',
+      link: 'https://meharpreetsingh.github.io/nexter/',
+      imgUrl: '/images/projects/nexter.jpg',
+      description: 'Real Estate Landing Page || Javascript, HTML, SCSS',
+    },
+    {
+      title: 'Trillo',
+      link: 'https://meharpreetsingh.github.io/trillo/',
+      imgUrl: '/images/projects/trillo.jpg',
+      description: 'Hotel Description Page || Javascript, HTML, SCSS',
     },
   ],
   about: {
@@ -43,11 +85,18 @@ const userData = {
     //   desc: 'As full-stack developer is responsible for designing, developing, and maintaining web applications using MongoDB, Express.js, React.js, and Node.js technologies. Use of other modern technologies such as TailwindCSS, SASS, etc. Always ready to adapt new tech...',
     // },
     {
+      title: 'FullStack Developer & Designer',
+      company: 'Mehar Graphix',
+      year: 'Feb 2019 - Dec 2022',
+      companyLink: 'https://www.instagram.com/mehar.graphix/',
+      desc: '[ReactJS, NextJS, Tailwind, NodeJs, MySQL] [Adobe Creative Suite (Photoshop, Illustrator), Sketch, Figma] [SEO, SMM, WordPress, Facebook, Instagram]',
+    },
+    {
       title: 'Frontend Developer (Intern)',
       company: 'Brand Masterz',
-      year: 'Feb 2023 - May 2023',
+      year: 'Feb - June 2023',
       companyLink: 'https://brandmasterz.in/',
-      desc: 'Develop and deploy web applications. Translating designs and wireframes into high-quality code. Building reusable components and front-end libraries for future use. Monitoring and improving front-end performance..',
+      desc: '[ReactJS, NextJS, Tailwind, NodeJs, MySQL] Develop and deploy web applications. Translating designs and wireframes into high-quality code. Building reusable components and front-end libraries for future use. Monitoring and improving front-end performance..',
     },
   ],
   resumeUrl: 'https://drive.google.com/file/d/1jY-rVOqZmmTX5jAeL5dEyHCLO_jLR1QA/view?usp=sharing',
@@ -57,6 +106,7 @@ const userData = {
     linkedin: 'https://linkedin.com/in/meharpreet-singh',
     github: 'https://github.com/meharpreetsingh',
     behance: 'https://www.behance.net/meharsidhu',
+    whatsapp: 'https://wa.link/0gykg8',
     // facebook: 'https://facebook.com/',
     // peerlist: 'https://peerlist.io/manuarora',
   },

@@ -6,7 +6,7 @@ import userData from '@constants/data';
 
 export default function Navbar() {
   const router = useRouter();
-  console.log(router.asPath);
+  // console.log(router.asPath);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <div className='max-w-6xl  mx-auto px-4 py-10 md:py-20'>
-      <div className='flex  md:flex-row justify-between items-center'>
+      <div className='flex flex-col  md:flex-row justify-between items-center'>
         <div className='flex flex-col'>
           <Link href='/'>
             <h1 className='font-semibold text-xl dark:text-gray-100'>{userData.name}</h1>
@@ -208,7 +208,7 @@ export default function Navbar() {
           </button>
         </div>
       </div>
-      <div className='space-x-8 block md:hidden mt-4'>
+      <div className='space-x-2 block md:hidden mt-4 flex justify-center'>
         <Link href='/about' className='text-base font-normal text-gray-600 dark:text-gray-300'>
           About
         </Link>
